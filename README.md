@@ -1,2 +1,0 @@
-# zagroda
-About my garden
