@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 body {font-family: Amarante ; background-image: url(images/tlodostronybeth.jpg); margin: 0; padding: 0;}
  a:hover {color:  #DDF0CF;}
- a {color: #DDF0CF;; font-size: 12px}
+ a {color: #DDF0CF;; font-size: 14px}
  
 .i1{transition: transform .2s;}
 .i1:hover{transform: scale(1.5);}
@@ -19,7 +19,7 @@ img {width: 100%;}
 
 
 .container-main {
-	width: 100%; height: 1200px;
+	width: 100%; height: 1165px;
     display: flex; 
     justify-content: center;
     border: 0px black solid; 
@@ -63,7 +63,7 @@ img {width: 100%;}
     flex-direction: column;
     width: 270px;
     background-color: transparent;
-    margin: 420px 40px 10px 80px;
+    margin: 390px 40px 10px 70px;
     padding: 140px 40px 120px 20px;
     font-size: 14px;
     border: 0px solid red;
