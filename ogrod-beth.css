@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-body { * {font-family: 'Amarante',  cursive; background-image: url(images/tlodostronybeth.jpg); margin: 0; padding: 0;}
+body {font-family: Amarante ; background-image: url(images/tlodostronybeth.jpg); margin: 0; padding: 0;}
  a:hover {color:  #DDF0CF;}
  a {color: #DDF0CF;; font-size: 12px}
  
@@ -32,8 +32,8 @@ img {width: 100%;}
     background-color: transparent;
     margin: 10px 30px 10px 0px;
     padding: 20px 30px 20px 0px;
-	font-size: 15px; 
-	line-height: 18px; 
+	font-size: 16px; 
+	line-height: 19px; 
 	color: black;
 }
 .container-center {
@@ -43,7 +43,8 @@ img {width: 100%;}
     background-color:transparent;
     margin: 10px 90px 10px 0px;
     padding: 20px 20px 20px 0px;
-    font-size: 16px;
+    font-size: 16px; 
+	line-height: 19px; 
 }
 .container-right {
     display: flex;
@@ -52,7 +53,8 @@ img {width: 100%;}
     background-color: transparent;
     margin: 10px 40px 10px 7px;
     padding: 20px 40px 3px 20px;
-    font-size: 10px;
+    font-size: 16px; 
+	line-height: 19px; 
     border: 0px solid red;
 }
 
@@ -63,7 +65,7 @@ img {width: 100%;}
     background-color: transparent;
     margin: 420px 40px 10px 80px;
     padding: 140px 40px 120px 20px;
-    font-size: 13px;
+    font-size: 14px;
     border: 0px solid red;
 	color: #DDF0CF;
 }
@@ -101,7 +103,7 @@ div[class^="left"] {
     background-color: #fa8072;
     margin: 12px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
-    font-size: 14px;
+    font-size: 15px;
 	}
 	
 	div .left-1 {
@@ -111,8 +113,8 @@ div[class^="left"] {
     background-color:transparent;
     margin: 195px 30px 1px 30px;
     padding: 10px 20px 0px 30px;
-	font-size: 14px; 
-	line-height: 17px; 
+	font-size: 16px; 
+	line-height: 19px; 
 	color: #DDF0CF;
 }
     div .left-2 {
@@ -122,8 +124,8 @@ div[class^="left"] {
     background-color:transparent;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 15px;
-	font-size: 14px; 
-	line-height: 17px; 
+	font-size: 15px; 
+	line-height: 19px; 
 	color: #DDF0CF;
 }
 div .left-3 {
@@ -164,8 +166,8 @@ div .center-1 {
     background-color:transparent;
     margin: 170px 70px 10px 0px;
     padding: 10px 60px 10px 1px;
-	font-size: 14px; 
-	line-height: 17px; 
+	font-size: 16px; 
+	line-height: 19px; 
 	color: #DDF0CF;
 }
 div .center-2 {
