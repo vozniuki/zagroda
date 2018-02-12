@@ -1,5 +1,5 @@
 * {box-sizing: border-box;}
-body {font-family: Courgette ; background-image: url(images/tlodostronybeth.jpg); margin: 0; padding: 0;}
+body { * {font-family: 'Amarante',  cursive; background-image: url(images/tlodostronybeth.jpg); margin: 0; padding: 0;}
  a:hover {color:  #DDF0CF;}
  a {color: #DDF0CF;; font-size: 12px}
  
