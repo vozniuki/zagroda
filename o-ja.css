@@ -2,12 +2,14 @@
 body {font-family: McLaren ; margin: 0; padding: 0;}
  a:hover {color:  white;}
  a {color: white; font-size: 14px}
- 
+.i1 {width: 180px;}
 .i1{transition: transform .2s;}
 .i1:hover{transform: scale(1.7);}
+
 img {width: 100%;}
 
-.i1 {width: 100%;}
+
+
 
 .i2 {width: 230px; height:173px;}
 .i2{transition: transform .2s;}
@@ -113,7 +115,7 @@ div .center-2 {
     width: 200px; height:720px;
     background-color:#474F4D;
     margin: 80px 40px 10px 7px;
-    padding: 20px 40px 3px 20px;
+    padding: 10px 2px 2px 10px;
     font-size: 16px; 
 	line-height: 19px; 
     border: 0px solid red;
