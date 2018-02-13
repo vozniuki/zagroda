@@ -1,67 +1,37 @@
-* {box-sizing: border-box;}
-body {font-family:'Work Sans', sans-serif; background-image: url(IMG/ogr-tlo03.jpg);
+* {box-sizing: border-box; margin:0; padding:0;}
+body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-trawa.jpg);
       margin: 0; padding: 0; font-size: 13px; line-height: 15px; color: black;}
+	 
 .main-0 {
     display: flex; 
     justify-content: center;
-    border: 1px black solid; 
+    border: 0px red solid; 
     flex-direction: column;
-	font-size: 16px; 
-	line-height: 21px; 
+	font-size: 14px; 
+	line-height: 18px; 
 	color: black;
 }
 .container-main {
     display: flex; 
     justify-content: center;
-    border: 1px black solid; 
+    border: 0px green solid; 
     flex-direction: row;
-	font-size: 16px; 
-	line-height: 21px; 
+	font-size: 14px; 
+	line-height: 18px; 
 	color: black;
 }
-.main-1 {
-    display: flex; 
-    justify-content: center;
-    border: 1px black solid; 
-    flex-direction: row;
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
-}
-.main-1-left {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    background-color: #F4EAB3;
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px 20px 20px;
-    border: 1px black solid; 
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
-}
-.main-1-right {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    background-color:#F4EAB3;
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px 20px 20px;
-    border: 1px black solid; 
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
-}
+
 .container-left {
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: #F4EAB3;
-    margin: 10px 10px 10px 10px;
+    background-color: transparent;
+    margin: 50px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
+	
+	font-size: 14px; 
+	line-height: 18px; 
+	color: #D9E0C6;
 }
 .i1{transition: transform .2s;}
 .i1:hover{transform: scale(1.5);}
@@ -72,26 +42,27 @@ body {font-family:'Work Sans', sans-serif; background-image: url(IMG/ogr-tlo03.j
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: #F4EAB3;
-    margin: 10px 10px 10px 10px;
+    background-color:tra;
+    margin: 50px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
+	font-size: 14px; 
+	border: 0px black solid; 
+	line-height: 18px; 
+	color:#D9E0C6;
 }
 .container-right {
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: #F4EAB3;
-    margin: 10px 10px 10px 10px;
+    background-color: transparent;
+    margin: 63px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
-	font-size: 16px; 
-	line-height: 21px; 
-	color: black;
-    border: 2px solid red;
+	font-size: 14px; 
+	line-height: 18px; 
+	color:#D9E0C6;
+    border: 0px ridge #8AA24E; border-radius: 10px;
 }
-img {width: 100%;}
+img {width: 100%;border: 3px ridge #8AA24E; border-radius: 13px; margin-top:20px; margin-bottom:20px;}
 .i1 {width: 100%; }
 .i2 {width: 60%; }
 
