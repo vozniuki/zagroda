@@ -13,7 +13,7 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 }
 .container-main {
     display: flex; 
-	width: 1300px; height: 2000px;
+	width: 1300px; height: 2100px;
     justify-content: center;
     border: 0px green solid; 
     flex-direction: row;
@@ -55,7 +55,7 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 .container-right {
     display: flex;
     flex-direction: column;
-    width: 300px; height: 1950px;
+    width: 305px; height: 1950px;
     background-color: transparent;
     margin: 63px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
