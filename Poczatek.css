@@ -13,18 +13,20 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 }
 .container-main {
     display: flex; 
+	width: 1300px; height: 2000px;
     justify-content: center;
     border: 0px green solid; 
     flex-direction: row;
 	font-size: 14px; 
 	line-height: 18px; 
 	color: black;
+	border: 0px white solid; 
 }
 
 .container-left {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 300px; height: 1950px;
     background-color: transparent;
     margin: 50px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
@@ -41,7 +43,7 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 .container-center {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 300px; height: 1950px;
     background-color:tra;
     margin: 50px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
@@ -53,7 +55,7 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 .container-right {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 300px; height: 1950px;
     background-color: transparent;
     margin: 63px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
