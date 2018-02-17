@@ -1,0 +1,173 @@
+* {box-sizing: border-box;}
+body {font-family: Kurale; margin: 0; padding: 0;}
+ a:hover {color:  white;}
+ a {color: white; font-size: 15px}
+.i1 {width: 300px;padding-left:0px}
+.i1{transition: transform .2s;}
+.i1:hover{transform: scale(1.5);}
+
+img {width: 300px;}
+
+img {border: thick double black;}
+
+.i2 {width: 270px;}
+.i2{transition: transform .2s;}
+.i2:hover{transform: scale(1.7);}
+
+.i3 {width: 300px; height:245px;}
+.i3 {transition: transform .2s;}
+.i3:hover{transform: scale(1.5);}
+
+
+.container-main {
+	width: 100%;
+    display: flex; 
+	background-image: url(PLAZA/tlo-balie.jpg);
+    justify-content: center;
+    border: 0px red solid; 
+    flex-direction: row;
+	font-size: 18px
+	color: white
+}
+
+
+
+.container-left1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+    background-color: transparent;
+    margin: 3px 30px 0px 30px;
+    padding: 0px;
+	border: 0px white solid; 
+}
+
+	.left0 {
+    display: flex;
+    flex-direction: column;
+    width: 400px; height: 230px;
+    background-image: url(PLAZA/tlo-balie-mini.jpg);
+    margin: 15px 30px 4px 40px;
+    padding: 82px 20px 2px 40px;
+	font-size: 15px; 
+	line-height: 19px; 
+	color:white;
+	border: 0px white solid;
+}
+
+	.left1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px; 
+    background-color:transparent;
+    margin: 15px 30px 4px 40px;
+    padding: 2px 20px 2px 20px;
+	font-size: 13px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px white solid;
+}
+   
+
+	.left2 {
+    display: flex;
+    flex-direction: column;
+    width: 280px; height: 600px;
+    background-image: url(PLAZA/tlo-balie-lewe.jpg);
+    margin: 50px 30px 4px 62px;
+    padding: 140px 30px 0px 50px;
+	font-size: 14px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px white solid;
+	}	
+	.left3 {
+    display: flex;
+    flex-direction: column;
+    width: 280px; height: 20px;
+    background-color: transparent;
+    margin: 50px 30px 0px 62px;
+    padding: 10px 30px 0px 50px;
+	font-size: 14px; 
+	line-height: 19px; 
+	color: white;
+	border: 3px white solid;
+}
+   
+
+.container-right {
+    display: flex;
+    flex-direction: raw;
+    width: 900px; height:2000px;
+    background-color:
+    margin: 2px 7px 10px 10px;
+    padding: 10px 2px 2px 10px;
+	font-size: 14px; 
+	line-height: 20px; 
+    border: 0px solid blue;
+}
+
+ 
+
+
+	.left-1 {
+    display: flex;
+    flex-direction: column;
+    width: 290px; 
+    background-color: transparent;
+    margin: 30px 30px 4px 10px;
+    padding: 4px 20px 0px 20px;
+	font-size: 15px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px red solid; 
+}
+
+	.right-0 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    background-color:transparent;
+    margin: 0px 10px 4px 20px;
+   	font-size: 13px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px brown solid; 
+}
+	.right-1 {
+    display: flex;
+    flex-direction: column;
+    width: 280px; height: 200px;
+    background: transparent; 
+    margin: 5px 10px 4px 60px;
+    padding: px 0px 0px 0px;
+	font-size: 13px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px white solid; 
+}
+	.right-2 {
+    display: flex;
+    flex-direction: column;
+    width: 270px; height: 600px;
+    background-image: url(PLAZA/tlo-balie-prawe.jpg);
+    margin: 55px 20px 4px 90px;
+    padding: 130px 20px 0px 30px;
+	font-size: 15px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px brown solid; 
+}
+
+	.right-3 {
+    display: flex;
+    flex-direction: column;
+    width: 270px; height: 600px;
+    background-color: transparent;
+    margin: 40px 0px 4px 30px;
+    padding: 4px 0px 0px 30px;
+	font-size: 13px; 
+	line-height: 19px; 
+	color: white;
+	border: 0px brown solid; 
+}
