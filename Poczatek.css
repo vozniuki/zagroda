@@ -1,14 +1,14 @@
 * {box-sizing: border-box; margin:0; padding:0;}
 body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-trawa.jpg);
       margin: 0; padding: 0; font-size: 13px; line-height: 15px; color: black;}
-	 
+	   a {color: #FFFACD}
 .main-0 {
     display: flex; 
     justify-content: center;
     border: 0px red solid; 
     flex-direction: column;
 	font-size: 14px; 
-	line-height: 18px; 
+	line-height: 17px; 
 	color: black;
 }
 .container-main {
@@ -55,7 +55,7 @@ body {font-family:'Work Sans', sans-serif; background-image: url(images/tlo-traw
 .container-right {
     display: flex;
     flex-direction: column;
-    width: 300px; height: 1950px;
+    width: 305px; height: 1950px;
     background-color: transparent;
     margin: 63px 10px 10px 10px;
     padding: 20px 20px 20px 20px;
