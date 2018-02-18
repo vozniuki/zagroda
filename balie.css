@@ -147,7 +147,7 @@ img {border: 1px red solid;}
 .container-down {
     display: flex;
     flex-direction: row;
-    width: 900px; height:1300px;
+    width: 900px; height:600px;
     background-color: transparent;
     margin: 0px 0px 0px 0px;
     padding: 0px;
