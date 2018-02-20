@@ -12,7 +12,7 @@ p {
     margin-bottom: 50px;
 }
 body {font-family: Kurale; margin: 0; padding: 0;}
-a:hover {color:  black;}
+a:hover {color: black;}
 a {
     color: black; 
     font-size: 15px;
@@ -21,7 +21,7 @@ a {
 }
 .i1 {width: 270px;padding-left:0px}
 .i1{transition: transform .2s;}
-.i1:hover{ransform: scale(1.5);}
+.i1:hover{transform: scale(1.5);}
 
 img {width: 270px;}
 
