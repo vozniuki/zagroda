@@ -6,7 +6,8 @@
       <meta http-equiv="Content-Language" content="pl">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>      
-      <style>
+<link rel="stylesheet" href="forAll.css">      
+<style>
          * {font-family: 'Amarante', sans-serif;
             box-sizing: border-box;
             margin:0;
@@ -22,6 +23,7 @@
              height: 1000px;
              background: url('IMG/tlostarypapier2.jpg'); 
              padding-left: calc(50% - 610px);
+             padding-top: 0px;
          }
          #sh-div {
              width: 1220px;
@@ -40,12 +42,14 @@
          }
          #rightC {
              transform-origin: right top 0; 
-             transition: transform 3s;
+             transition: transform 2s;
+             -webkit-transition: transform 2s;
              left: 610px;
          }
          #leftC {
              transform-origin: left top 0; 
-             transition: transform 3s;
+             transition: transform 2s;
+             -webkit-transition: -webkit-transform 2s;
              left: 0px;
          }
          #rightC img {
@@ -57,139 +61,30 @@
              left: 0;
          }
          .idd {
-             width: 1220px;
+             width: 610px;
              height: 900px;
-         }
-         #sh-div-1 {width:1230px;
-                    height: 1050px;
-                    background: url('IMG/tlostarypapier2.jpg');
-                    opacity: 0;
-                    display: none;
-                    transition: opacity 5s;
-         }
-         .sh-div-2 {
-             font-size:16px;
-             width: 870px;
-             height: 1043px; 
-             padding-top: 43px;
-         }
-         .gr-photo-1 {width: 520px; 
-                      height: 990px; 
-                      float: left;
-                      background: url('IMG/tlo-do-opowiadam-prawe.jpg');
-                      background-size: 100% 100%;
-                      padding: 270px 10px 20px 50px; 
-                      font-size: 16px;
-         }
-         .gr-photo-1 p {margin-top: 10px; 
-                        padding-left: 125px; 
-                        padding-right: 5px; 
-                        text-align: left;  
-         }			 
-         .gr-art-1 {width: 300px; 
-                    height: 990px; 
-                    float: right;
-                    color:black;  
-                    position: static;
-                    background: url('IMG/tlo-do-opowiadam-lewe.jpg'); 
-                    background-size: 100% 100%; 
-                    padding: 270px 0px 20px 50px; 
-                    font-size: 16px;
-         }
-         .gr-art-1 p {margin-top: 15px; 
-                      padding-left: 55px; 
-                      padding-right: 45px; 
-                      text-align: left;  
-         }				 
-         div[class^="footer"] {background: url('IMG/tlo01.jpg');
-                               border: 0;
-                               color: black; 
-                               text-align: left;
-         }            
-         .gr-art-1 a {color: black;
-         }
-         .interval-1 {width: 450px; 
-                      height: 0px; 
-         }
-         .footer-1 {width: 450px; 
-                    height: 0px;
-                    padding-top: 0px;
-         }
-         .footer-1 a {color:black; }
-         .ddd {
-             width: 1220px;
-             height: 900px;
-             border: 2px solid black;
          }
       </style>
    </head> 
    <body> 
       <script>
+         document.body.style.opacity = "1";
          function pageRotate() {
-             /*document.getElementById("myDIV-3").style.display = "block";*/
              document.getElementById("rightC").style.transform = "rotateY(-90deg)";
              document.getElementById("leftC").style.transform = "rotateY(90deg)";
-             document.getElementById("sh-div").style.cursor = "auto";
              setTimeout(function () {
-                window.close();
-                window.open("wstep.html", "_self");
-             }, 2800);
-             
-/*             document.getElementById("sh-div-1").style.display = "block";
-             setTimeout(function () {
-                 document.getElementById("sh-div-1").style.opacity = "1";
-             }, 1000);
-             setTimeout(function () {
-                 document.getElementById("sh-div").style.display = "none";
-             }, 5000);*/
+                 window.close();
+                 window.open("wstep.html", "_self");
+             }, 1500);
          }
       </script>
       <div id="sh-div" onclick="pageRotate()">
          <div id="leftC">
-            <img class="idd" alt="" src="IMG/okladka-zagroda.jpg">
+            <img class="idd" alt="" src="IMG/okladka-zagroda-left.jpg">
          </div>
          <div id="rightC">
-            <img class="idd" alt="" src="IMG/okladka-zagroda.jpg">
+            <img class="idd" alt="" src="IMG/okladka-zagroda-right.jpg">
          </div>
       </div>
-      <!--div id="sh-div-1">
-         <center>
-            <div class="sh-div-2">   
-               <div class="gr-photo-1">
-                  <p>opowiadam tu o moim życiu</p>
-                  <p> pośród pól lasów pośród ludzi<p> ptaków kotów i psów</p>
-                  <p>zasłuchana i głucha zarazem<p>
-                  <p>otoczona zielonym światem <p> zamierania i odradzania się</p>
-                  <p>w towarzystwie grzesznych aniołów</p>
-                  <p>z jakimi wieczorami spieram się o istotę</p>
-                  <p>ale nie ma ona już znaczenia</p>
-                  <p>bo kolejny dzień i tak żyje po swojemu</p>
-                  <p>&nbsp;</p>
-                  <p>a ja wciąż się temu dziwię</p>
-                  <p>bo nieustannie się dziwię</p>
-                  <p>i to jest powód</p>
-                  <p>albo przyczyna</p>
-                  <p>albo nawet skutek</p>
-                  <p>&nbsp;</p>
-                  <p>moje miejsce do życia to zagroda</p>
-                  <p><b>Zagroda w Moczydle</b></p> 
-               </div>    
-               <div class="gr-art-1">
-                  <p><a href="o-mnie.html">ja</a></p><br>
-                  <p><a href="o-mnie.html">zagroda</a></p><br>
-                  <p><a href="stulecie.html">ogródek</a></p><br>
-                  <p><a href="stulecie.html">zwierzęta</a></p><br>
-                  <p><a href="stulecie.html">anioły</a></p><br>
-                  <p><a href="stulecie.html">napitki</a></p><br>
-               </div>
-               <div class="interval-1"></div>
-               <div class="interval-2">
-               </div>
-               <div class="footer-1">
-                  <a href="Ogrod1.html"></a>
-               </div>
-            </div>
-         </center>
-      </div-->
    </body>
 </html>

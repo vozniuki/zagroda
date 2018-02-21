@@ -10,6 +10,8 @@
    </head>
    <body>
       <div class="container-main">
+         <div id="blink-b"  onclick = "openW('plaza.html')">
+            <p id="blink-b-p">&#8656;</p></div>
          <div class="container-left">
             <div class="left0">
                <p>Postanowiłam<br> pozbyć się namolnych miskantów, ale nie było to zadanie łatwe. Mikołaj blisko tydzień rył ziemię i wyciagał rozłogi. Większość wrosła w starą agrowłókninę, więc trzeba było ją wyrzucić. Ale trawa nie odpuszczała. W końcu uzyskaliśmy w miarę czyste podłoże, wciąż jeszcze z piaskiem. Miałam nadzieję, że uda się zachować moją oryginalną plażę. Kiedy jednak kolejne koty urządziły sobie tam kuwetę, poddałam się.   
@@ -37,7 +39,7 @@
                <div class="down0">
                   <p><img class="i1" alt="" src="BALIE/015.jpg"></p>
                   <p><img class="i1" alt="" src="BALIE/012.jpg"></p>
-                  <a href="spacer-po-ogrodzie.html"> Wróć do menu ogrodu.</a>
+                  <a  onclick = "openW('spacer-po-ogrodzie.html')" href="#"> Wróć do menu ogrodu.</a>
                </div>
                <div class="down1">
                   <p><img class="i1" alt="" src="BALIE/010.jpg"></p>
@@ -46,10 +48,19 @@
                <div class="down2">
                   <p><img class="i1" alt="" src="BALIE/011.jpg"></p>
                   <p><img class="i1" alt="" src="BALIE/09.jpg"></p>
-                  <a href="o-butach.html">Czytaj dalej.</a>	 
+                  <a  onclick = "openW('o-butach.html')" href="#">Czytaj dalej.</a>	 
                </div>	
             </div>    
          </div>	
       </div>	
+      <script>
+         document.body.style.opacity = "1";
+         function openW(nn) {
+             document.body.style.opacity = "0";
+             setTimeout(function () {
+                 window.open(nn, "_self");
+            }, 1500);
+         }
+      </script>    
    </body>
 </html>

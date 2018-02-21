@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="ogrod-beth.css">
     </head>
     <body>
-	
         <div class="container-main">
+         <div id="blink-b"  onclick = "openW('spacer-po-ogrodzie.html')">
+            <p id="blink-b-p">&#8656;</p></div>
             <div class="container-left">
               
                 <div class="left-1">
@@ -59,7 +60,9 @@
       osobiście nadzorowała prace w ogrodzie. <p>Poza własnym ogrodem, miała na głowie tysiące słuchaczy w 
       różnych zakątkach świata, dokąd jeździła z wykładami na temat zakładania 
       ogrodów w specyficznych warunkach. Napisała także kilkanaście książek o 
-      uprawie roślin ozdobnych.</p> <p>  <a href="beth-suchy-ogrod.html">Tu opowiem o tym, co wydało mi się najciekawsze w tym ogrodzie.</a>
+      uprawie roślin ozdobnych.</p> 
+      <p onclick = "openW('beth-suchy-ogrod.html')">
+         <a href="#">Tu opowiem o tym, co wydało mi się najciekawsze w tym ogrodzie.</a></p>
                 </div>
                 <div class="right-2">
                     
@@ -74,6 +77,15 @@
                 </div>
             </div>
         </div>
+      <script>
+         document.body.style.opacity = "1";
+         function openW(nn) {
+             document.body.style.opacity = "0";
+             setTimeout(function () {
+                 window.open(nn, "_self");
+            }, 1500);
+         }
+      </script>    
     </body>
 </html>
 
