@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 body {font-family: McLaren ; margin: 0; padding: 0;}
  a:hover {color:  white;}
- a {color: white; font-size: 14px}
+ a {color: white; font-size: 13px}
 .i1 {width: 135px; padding: 20px 0 2px 0;}
 .i1{transition: transform .2s;}
 .i1:hover{transform: scale(2.6);}
@@ -46,8 +46,8 @@ img {width: 100%;}
     background-color:#394341;
     margin: 40px 0px 40px 10px;
     padding: 10px 20px 0px 30px;
-	font-size: 13px; 
-	line-height: 19px; 
+	font-size: 12px; 
+	line-height: 15px; 
 	color: white;
 }
    
