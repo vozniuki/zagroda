@@ -65,6 +65,7 @@ a {
 .container-d {
     padding-top: 135px;
 }
+img:hover {transform: scale(1.5);}
 img {
     width: 100%; 
     margin-bottom: 100px;
