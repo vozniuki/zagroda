@@ -1,112 +1,64 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Opowiadam tu</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Opowiadam tu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="forAll.css">      
+        <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="wstep.css"> 
+    </head>
+    <body>
+        <!--div id="sh-div"-->
+        <div id="container-main">
+            <div id="blink-b"  onclick = "openW()">
+                <p id="blink-b-p">&#8656;</p></div>
+            <!--div id="gr-photo-1"-->
+            <div id="container-a">
+                <p>opowiadam tu o moim życiu</p>
+                <p> pośród pól lasów pośród ludzi<p> ptaków kotów i psów</p>
+                <p>zasłuchana i głucha zarazem<p>
+                <p>otoczona zielonym światem <p> zamierania i odradzania się</p>
+                <p>w towarzystwie grzesznych aniołów</p>
+                <p>z jakimi wieczorami spieram się o istotę</p>
+                <p>ale nie ma ona już znaczenia</p>
+                <p>bo kolejny dzień i tak żyje po swojemu</p>
+                <p>&nbsp;</p>
+                <p>a ja wciąż się temu dziwię</p>
+                <p>bo nieustannie się dziwię</p>
+                <p>i to jest powód</p>
+                <p>albo przyczyna</p>
+                <p>albo nawet skutek</p>
+                <p>&nbsp;</p>
+                <p>moje miejsce do życia to zagroda</p>
+                <p><b>Zagroda w Moczydle</b></p> 
+            </div>    
+            <!--div id="gr-art-1"-->
+            <div id="container-b">
+                <p onclick="pageRotate('o-mnie.html')"><a href="#">ja</a></p><br>
+                <p onclick="pageRotate('stulecie.html')"><a href="#">zagroda</a></p><br>
+                <p onclick="pageRotate('reconstruction.html')"><a href="#">ogródek</a></p><br>
+                <p onclick="pageRotate('reconstruction.html')"><a href="#">zwierzęta</a></p><br>
+                <p onclick="pageRotate('reconstruction.html')"><a href="#">anioły</a></p><br>
+                <p onclick="pageRotate('reconstruction.html')"><a href="#">napitki</a></p><br>
+            </div>
+        </div>
+    <script>
+        document.body.style.opacity = "1";
+        function openW() {
+            window.open("index.html", "_self");
+        }
+        function pageRotate(nn) {
+            document.getElementById("container-b").style.transform = "rotateY(-90deg)";
+            document.getElementById("container-a").style.transform = "rotateY(90deg)";
+            setTimeout(function () {
+                document.getElementById("container-b").style.transform = "rotateY(0deg)";
+                document.getElementById("container-a").style.transform = "rotateY(0deg)";
+                window.close();
+                window.open(nn, "_self");
+            }, 2000);
+        }
 
-
-      <style>
-         * {font-family: 'Amarante', sans-serif; 
-            font-size:16px; 
-            position: relative;
-         }
-         body { margin: 0; 
-                background: url('IMG/tlostarypapier2.jpg');  
-         }
-         #sh-div {width: 870px;
-                  height: 1000px; 
-                  margin-top: 43px;
-         }
-         #gr-photo-1 {width: 520px; 
-                      height: 990px; 
-                      float: left;
-                      background: url('IMG/tlo-do-opowiadam-prawe.jpg');
-                      background-size: 100% 100%;
-                      padding: 270px 10px 20px 50px; 
-                      font-size: 18px;
-         }
-         #gr-photo-1 p {margin-top: 10px; 
-                        padding-left: 125px; 
-                        padding-right: 5px; 
-                        text-align: left;  
-         }			 
-         #gr-art-1 {width: 300px;
-                    height: 990px; 
-                    float: right;
-                    color:black;  
-                    position: static;
-                    background: url('IMG/tlo-do-opowiadam-lewe.jpg'); 
-                    background-size: 100% 100%; 
-                    padding: 270px 0px 20px 50px; 
-                    font-size: 15px;
-         }
-         #gr-art-1 p {margin-top: 15px; 
-                      padding-left: 55px; 
-                      padding-right: 45px; 
-                      text-align: left;  
-         }				 
-         #gr-art-1 a {color: black;
-                      text-decoration: underline;
-         }
-         #blink-b {
-             border-color: #793d0c;
-             background-color: transparent;
-             color: #793d0c;
-         }
-      </style>
-   </head>
-   <body>
-   <center>
-      <div id="sh-div">
-         <div id="blink-b"  onclick = "openW()">
-            <p id="blink-b-p">&#8656;</p></div>
-         <div id="gr-photo-1">
-            <p>opowiadam tu o moim życiu</p>
-            <p> pośród pól lasów pośród ludzi<p> ptaków kotów i psów</p>
-            <p>zasłuchana i głucha zarazem<p>
-            <p>otoczona zielonym światem <p> zamierania i odradzania się</p>
-            <p>w towarzystwie grzesznych aniołów</p>
-            <p>z jakimi wieczorami spieram się o istotę</p>
-            <p>ale nie ma ona już znaczenia</p>
-            <p>bo kolejny dzień i tak żyje po swojemu</p>
-            <p>&nbsp;</p>
-            <p>a ja wciąż się temu dziwię</p>
-            <p>bo nieustannie się dziwię</p>
-            <p>i to jest powód</p>
-            <p>albo przyczyna</p>
-            <p>albo nawet skutek</p>
-            <p>&nbsp;</p>
-            <p>moje miejsce do życia to zagroda</p>
-            <p><b>Zagroda w Moczydle</b></p> 
-         </div>    
-         <div id="gr-art-1">
-            <p onclick="pageRotate('o-mnie.html')"><a href="#">ja</a></p><br>
-            <p onclick="pageRotate('o-mnie.html')"><a href="#">zagroda</a></p><br>
-            <p onclick="pageRotate('stulecie.html')"><a href="#">ogródek</a></p><br>
-            <p onclick="pageRotate('stulecie.html')"><a href="#">zwierzęta</a></p><br>
-            <p onclick="pageRotate('stulecie.html')"><a href="#">anioły</a></p><br>
-            <p onclick="pageRotate('stulecie.html')"><a href="#">napitki</a></p><br>
-         </div>
-      </div>
-   </center>
-   <script>
-      document.body.style.opacity = "1";
-      function openW() {
-          window.open("index.html", "_self");
-      }
-      function pageRotate(nn) {
-          document.getElementById("gr-art-1").style.transform = "rotateY(-90deg)";
-          document.getElementById("gr-photo-1").style.transform = "rotateY(90deg)";
-          setTimeout(function () {
-              window.close();
-              window.open(nn, "_self");
-          }, 2000);
-      }
-
-   </script>            
+    </script>            
 </body>
 </html>

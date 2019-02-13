@@ -101,7 +101,7 @@ a {color: black;
     .container-main {flex-direction: column;  }
     #container-b  {margin-top: 45px;}
 }
-    @media only screen and (max-width: 386px) {
+@media only screen and (max-width: 386px) {
     #container-a {
         margin-left: 0%;
     }
