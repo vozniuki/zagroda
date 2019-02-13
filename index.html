@@ -1,92 +1,36 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Zagroda w Moczydle</title>
-      <meta charset="UTF-8">
-      <meta http-equiv="Content-Language" content="pl">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>      
-<link rel="stylesheet" href="forAll.css">      
-<style>
-         * {font-family: 'Amarante', sans-serif;
-            box-sizing: border-box;
-            margin:0;
-            padding: 0;
-            margin-block-start: 0;
-            margin-block-end: 0;
-            unicode-bidi: normal;
-         }            
-         body {
-             position: absolute;
-             display: block;
-             width: 100%;
-             height: 1000px;
-             background: url('IMG/tlostarypapier2.jpg'); 
-             padding-left: calc(50% - 610px);
-             padding-top: 0px;
-         }
-         #sh-div {
-             width: 1220px;
-             height: 900px;
-             position: absolute;
-             display: flex;
-             cursor: pointer;
-         }
-         #rightC, #leftC {
-             width: 610px; 
-             height: 900px; 
-             display: flex;
-             flex-grow: 1;
-             position: absolute;
-             overflow: hidden;
-         }
-         #rightC {
-             transform-origin: right top 0; 
-             transition: transform 2s;
-             -webkit-transition: transform 2s;
-             left: 610px;
-         }
-         #leftC {
-             transform-origin: left top 0; 
-             transition: transform 2s;
-             -webkit-transition: -webkit-transform 2s;
-             left: 0px;
-         }
-         #rightC img {
-             position: absolute;
-             right: 0;
-         }
-         #leftC img {
-             position: absolute;
-             left: 0;
-         }
-         .idd {
-             width: 610px;
-             height: 900px;
-         }
-      </style>
-   </head> 
-   <body> 
-      <script>
-         document.body.style.opacity = "1";
-         function pageRotate() {
-             document.getElementById("rightC").style.transform = "rotateY(-90deg)";
-             document.getElementById("leftC").style.transform = "rotateY(90deg)";
-             setTimeout(function () {
-                 window.close();
-                 window.open("wstep.html", "_self");
-             }, 1500);
-         }
-      </script>
-      <div id="sh-div" onclick="pageRotate()">
-         <div id="leftC">
-            <img class="idd" alt="" src="IMG/okladka-zagroda-left.jpg">IMG/okladka-zagroda-right.jpg
+    <head>
+        <title>Zagroda w Moczydle</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Language" content="pl">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext' rel='stylesheet' type='text/css'>      
+        <link rel="stylesheet" href="index.css">      
+    </head> 
+    <body> 
+        <script>
+            document.body.style.opacity = "1";
+            function pageRotate() {
+                document.getElementById("rightC").style.transform = "rotateY(-90deg)";
+                document.getElementById("leftC").style.transform = "rotateY(90deg)";
+                setTimeout(function () {
+                    document.getElementById("rightC").style.transform = "rotateY(0deg)";
+                    document.getElementById("leftC").style.transform = "rotateY(0deg)";
+                    window.close();
+                    window.open("wstep.html", "_self");
+                }, 1500);
+            }
+        </script>
+        <div id="sh-div" onclick="pageRotate()">
+            <div id="leftC">
+                <img class="idd" alt="" src="IMG/okladka-zagroda-left.jpg">IMG/okladka-zagroda-right.jpg
 
-         </div>
-         <div id="rightC">
-            <img class="idd" alt="" src="IMG/okladka-zagroda-right.jpg
-">
-         </div>
-      </div>
-   </body>
+            </div>
+            <div id="rightC">
+                <img class="idd" alt="" src="IMG/okladka-zagroda-right.jpg
+                     ">
+            </div>
+        </div>
+    </body>
 </html>
