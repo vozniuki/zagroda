@@ -54,6 +54,7 @@ a {
     color: black; 
     font-size: 100%;
 }
+.a-3 {margin-left: 40px;}
 .container-b {
     padding-top: 135px;
     margin-right: 40px;
@@ -89,6 +90,8 @@ img {
     .container-c {
         padding-top: 20px;
     }
+    .a-0 {height: 500px;}
+    .a-0-1 {height: 300px;}
     .i1, .i2 {
         margin-bottom: 10px;
     }
